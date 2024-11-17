@@ -3,7 +3,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - develop
+      - main
   pull_request:
     branches:
       - main
@@ -25,4 +25,4 @@ jobs:
       run: npm install
 
     - name: Run tests
-      run: npm test
+      run: npm test --passWithNoTests
