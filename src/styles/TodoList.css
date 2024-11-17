@@ -1,0 +1,65 @@
+/* src/styles/TodoList.css */
+.todo-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list-container h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.todo-list-container input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.todo-list-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-list-container button:hover {
+  background-color: #45a049;
+}
+
+.todo-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list-container ul li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.2em;
+}
+
+.todo-list-container ul li:last-child {
+  border-bottom: none;
+}
+
+.todo-list-container ul li span {
+  cursor: pointer;
+  color: #ff5733;
+  margin-left: 10px;
+}
+
+.todo-list-container ul li span:hover {
+  color: #e74c3c;
+}
