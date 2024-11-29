@@ -1,4 +1,4 @@
-# T01_GitHub Actions 🚀  xd
+# T01_GitHub Actions 🚀
 
 Este repositorio contiene ejemplos y flujos de trabajo de **GitHub Actions** para automatizar tareas comunes en el desarrollo de software, como pruebas, despliegue y más. 
 
